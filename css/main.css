@@ -1,0 +1,196 @@
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Base Styles
+# Header
+# Navigation
+# Top Section
+# Bottom Section
+# Footer
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/*--------------------------------------------------------------
+# Base Styles
+--------------------------------------------------------------*/
+
+@font-face {
+	font-family: 'Wisdom Script';
+	src: url('..fonts/wisdomscript-regular.otf') format('opentype');
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+
+ }
+
+.site {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	color: black;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+h4 {
+	font-size: 12px;
+}
+
+p {
+	font-size: 16px;
+	padding: 0 30px;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+.site-header {
+	border-bottom: 3px solid #77a466;
+	height: 110px;
+	margin: 0 auto;
+}
+
+.site-header h1 {
+	float: left;
+	margin: 0;
+	padding: 36px 0;
+}
+
+.site-header h1 span {
+	color: #77a466;
+}
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+
+nav {
+	float: right;
+	padding: 29px 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #77a466;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*--------------------------------------------------------------
+# Top Section
+--------------------------------------------------------------*/
+
+.hero-image img {
+	border-bottom: 3px solid #77a466;
+}
+
+.main-title {
+	border-bottom: 1px solid #dedbdc;
+}
+
+.main-title h2 {
+	color: #77a466;
+}
+
+.main-title p {
+	line-height: 25px;
+	padding: 0;
+}
+
+/*--------------------------------------------------------------
+# Bottom Section
+--------------------------------------------------------------*/
+
+.section-one,
+.section-two,
+.section-three {
+	float: left;
+	height: auto;
+	width: 399px;
+}
+
+.section-two {
+	border-left: 1px solid #dedbdc;
+	padding-bottom: 10px;
+}
+
+.section-three {
+	border-left: 1px solid #dedbdc;
+	padding-bottom: 64px;
+}
+
+.section-one h4 {
+	padding: 10px 0;
+}
+
+.section-two h4,
+.section-three h4 {
+	padding: 10px 30px;
+}
+
+.menu {
+	list-style: none;
+	padding: 0;
+}
+
+.menu li {
+	color: #77a466;
+	padding: 10px 0;
+}
+
+.reviews {
+	line-height: 21px;
+}
+
+.address {
+	line-height: 24px;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+.site-footer {
+	height: 50px;
+	border-top: 1px solid #dedbdc;
+	clear: both;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.site-footer span {
+	color: #77a466;
+	font-family: 'Wisdom Script',cursive;
+	text-transform: lowercase;
+}
