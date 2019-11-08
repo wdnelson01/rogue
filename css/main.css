@@ -21,56 +21,59 @@
 --------------------------------------------------------------*/
 
 @font-face {
-	font-family: 'Wisdom Script';
-	src: url('..fonts/wisdomscript-regular.otf') format('opentype');
+  font-family: 'Wisdom Script';
+  src: url('..fonts/wisdomscript-regular.otf') format('opentype');
 }
 
 html {
-	font-size: 16px;
+  font-size: 16px;
 }
 
 body {
-	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-	font-size: 1em;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
  }
 
 .site {
-    margin: 0 auto;
-    max-width: 1200px;
+  max-width: 1200px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 h1,
 h2,
 h3,
 h4 {
-	color: black;
-	font-weight: 700;
-	text-transform: uppercase;
+  color: black;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 h1 {
-	font-size: 1.875;
+  font-size: 1.875em;
 }
 
 h2 {
-	font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 h3 {
-	font-size: 1.125;
+  font-size: 1.125;
 }
 
 h4 {
-	font-size: 0.75em;
+  font-size: 0.75em;
 }
 
 p {
-	font-size: 1em;
-	line-height: 21px;
-	padding: 0 30px;
+  font-size: 1em;
+  line-height: 21px;
 }
 
 /*--------------------------------------------------------------
@@ -78,23 +81,24 @@ p {
 --------------------------------------------------------------*/
 
 .site-header {
-	width: 100%;
-	border-bottom: 3px solid #77a466;
-	margin: 0 auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
+  text-align: center;
+  width: 100%;
+  border-bottom: 3px solid #77a466;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .site-header h1 {
-	float: left;
-	margin: 0;
-	padding: 38px 0;
+  width: 100%;
+  margin: 0;
+  padding: 38px 20px 20px 20px; 
+  border-bottom: 3px solid #77a466; 
 }
 
 .site-header h1 span {
-	color: #77a466;
+  color: #77a466;
 }
 
 /*--------------------------------------------------------------
@@ -102,26 +106,26 @@ p {
 --------------------------------------------------------------*/
 
 header nav {
-	float: right;
-	padding: 46px 0;
+  padding: 46px 0;
+  width: 100%;
 }
 
 header nav ul {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 header nav ul li {
-	text-transform: uppercase;
-	font-weight: 700;
-	font-size: 0.875em;
-	padding: 0 10px;
-	display: inline;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.875em;
+  padding: 10px 0;
+  list-style: none;
 }
 
 header nav ul li a{
-	color:#77a466;
-	text-decoration: none;
+  color:#77a466;
+  text-decoration: none;
 }
 
 /*--------------------------------------------------------------
@@ -129,39 +133,27 @@ header nav ul li a{
 --------------------------------------------------------------*/
 .top-section,
 .bottom-section {
-  margin: 0 auto;
-  clear: both;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-.hero-image {
-	height: auto;
-	float: left;
-}
-
 .hero-image img {
-	width: 100%;
-	border-bottom: 3px solid #77a466;
-}
-
-.main-title {
-	height: auto;
-	float: left;
+  width: 100%;
+  border-bottom: 3px solid #77a466;
 }
 
 .main-title h3 {
-	color: #77a466;
-	text-align: left;
-	padding: 5px 0;
+  color: #77a466;
+  text-align: left;
+  padding: 5px 0;
 }
 
 .main-title p {
-	font-size: 1em;
-	line-height: 25px;
-	padding: 0;
+  font-size: 1em;
+  line-height: 1.5625e;
+  padding: 0;
 }
 
 /*--------------------------------------------------------------
@@ -171,44 +163,28 @@ header nav ul li a{
 .section-one,
 .section-two,
 .section-three {
-	float: left;
-	height: auto;
-	width: 100%;
-	border-top: 1px solid #eee;
-}
-
-.section-two {
-	border-left: 1px solid #eeeeee;
-	border-right: 1px solid #eeeeee;
-}
-
-.section-one h4 {
-	padding: 10px 0;
-}
-
-.section-two h4,
-.section-three h4 {
-	padding: 10px 30px;
+  width: 100%;
+  border-top: 1px solid #eee;
 }
 
 .menu {
-	list-style: none;
-	padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .menu li {
-	color: #77a466;
-	padding: 10px 0;
+  color: #77a466;
+  padding: 10px 0;
 }
 
 .reviews {
-	font-size: 1em;
-	line-height: 21px;
+  font-size: 1em;
+  line-height: 1.3125em;
 }
 
 .address {
-	font-size: 1em;
-	line-height: 24px;
+  font-size: 1em;
+  line-height: 1.5em;
 }
 
 /*--------------------------------------------------------------
@@ -216,18 +192,18 @@ header nav ul li a{
 --------------------------------------------------------------*/
 
 .site-footer {
-	height: 50px;
-	border-top: 3px solid #eeeeee;
-	clear: both;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
+  height: 50px;
+  border-top: 3px solid #eeeeee;
+  clear: both;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .site-footer span {
-	color: #77a466;
-	font-family: 'Wisdom Script',cursive;
-	font-size: 0.875em;
-	text-transform: lowercase;
+  color: #77a466;
+  font-family: 'Wisdom Script',cursive;
+  font-size: 0.875em;
+  text-transform: lowercase;
 }
